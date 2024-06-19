@@ -1,0 +1,42 @@
+section{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.PresentationSectionTitle{
+    color: #fff;
+    font-size: 70px;
+    max-width: 80%;
+    text-align: left;
+}
+
+.detailedText{
+    color: #84eb8f;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AboutMoreLink {
+   background-color: #04090f;
+   z-index: 100;
+   padding: 15px;
+   text-decoration: none;
+   color: #fff;
+}
+
+.ligthDetail{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 
+    0 0 10px 0 rgba(132, 235, 143, 0.4),
+    0 0 90px 20px rgba(132, 235, 143, 0.3),
+    0 0 100px 10px rgba(132, 235, 143, 0.3),
+    0 0 150px 20px rgba(132, 235, 143, 0.001);
+}

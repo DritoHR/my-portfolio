@@ -1,0 +1,50 @@
+header {
+    background:rgba(40, 44, 52, 0.7);
+    padding: 1rem;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 1rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .logotype{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #fff;
+  }
+
+  .detailedText{
+    color: #84eb8f;
+  }
+
+  .contactLink{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+  }
+  
